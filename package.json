@@ -1,0 +1,21 @@
+{
+  "name": "kw-datastore",
+  "version": "1.0.0",
+  "description": "Simple key-value datastore with a buckets (DBs)",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "stop": "pkill --signal SIGINT kw-datastore",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Karel Warchalowsky",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.2",
+    "moment": "^2.19.4",
+    "nedb": "^1.8.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.12.5"
+  }
+}
